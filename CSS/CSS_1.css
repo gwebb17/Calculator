@@ -1,0 +1,7 @@
+/*form styling*/
+input[type=text] {
+    border:2px solid gold;
+    border-radius:4px;
+    background-color:blanchedalmond;
+    color:purple;
+}
