@@ -80,7 +80,7 @@ function Calculator_Reset() {
 function Update_Display() {
     //makes use of calculator-screen class to target the input tag in the HTML document
     const display=document.querySelector('.calculator-screen');
-    display.Value=Calculator.Display_Value;
+    display.value=Calculator.Display_Value;
 }
 Update_Display();
 //this section monitors button clicks
